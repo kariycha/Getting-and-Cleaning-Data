@@ -21,21 +21,16 @@ The structure of the data set is described in the [Data](#data) section, its var
 Final data set "hcrmean" contains the mean for each measurement, for given subject and activity 
 
 ### Identifiers <a name="identifiers"></a>
-Identifiers
-subject
-
 Subject identifier, integer, ranges from 1 to 30.
-
-activity
 
 Activity identifier, string with 6 possible values:
 
-WALKING
-WALKING_UPSTAIRS
-WALKING_DOWNSTAIRS
-SITTING
-STANDING
-LAYING
+	-WALKING
+	-WALKING_UPSTAIRS
+	-WALKING_DOWNSTAIRS
+	-SITTING
+	-STANDING
+	-LAYING
 
 
 ## Processing <a name="processing"></a>
