@@ -25,12 +25,12 @@ Subject identifier, integer, ranges from 1 to 30.
 
 Activity identifier, string with 6 possible values:
 
--WALKING
--WALKING_UPSTAIRS
--WALKING_DOWNSTAIRS
--SITTING
--STANDING
--LAYING
+	-WALKING
+	-WALKING_UPSTAIRS
+	-WALKING_DOWNSTAIRS
+	-SITTING
+	-STANDING
+	-LAYING
 
 
 ## Processing <a name="processing"></a>
