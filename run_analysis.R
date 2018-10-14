@@ -79,7 +79,9 @@ hcrmean <- extract_measurements %>%
     summarise_all(.funs = c(mean="mean"))
 
 
-
+# output to file "tidy_data.txt"
+write.table(hcrmean, "tidy_data.txt", row.names = FALSE, 
+            quote = FALSE)
 
 
 
