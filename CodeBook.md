@@ -43,6 +43,7 @@ The following step were carried out to clean and tidy original data sets:
 1. The column names were modified to be more readale:
 	- Remove '(', and ')'
 	- Replace 'BodyBody' with 'Body'
-1. From the data set in step 4, the final data set was created with the average of each variable for each activity and each subject.
+1. From the data set in step 4, the final data set was created with the average of each variable for each activity and each subject
+1. Data set was written to "tidy_data.txt"
 
 The collection of the source data and the transformations listed above were implemented by the `run_analysis.R` R script (see `README.md` file for usage instructions).
